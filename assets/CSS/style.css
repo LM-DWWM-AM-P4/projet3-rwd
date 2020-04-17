@@ -41,12 +41,20 @@ header{
   padding-left: 3vh;
   padding-right: 3vh;
 }
+.nav-item a{
+  display: block;
+  background-color: #343A40;
+  text-align: center;
+}
 .nav-item a:hover {
-  background-color: #525252;
+  background-color: #343A40;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0;
   padding-bottom: 0.5rem;
+}
+.nav-item li {
+  width: 10%;
 }
 #nav-logo figure{
   background-image: url(../img/logo.png);
@@ -58,60 +66,23 @@ header{
   margin: 0;
 }
 
-#main-nav{
-  width: 70%;
-  margin: 0 auto;
-  padding: 0px;
-  text-align: center;
-  display: inline-block;
-}
-#main-nav ul{
-  height: 50px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  flex-direction: row;
-  justify-content: center;
-}
-#main-nav li{
-  width: 10%;
-}
-#main-nav a{
-  display: block;
-  background-color: #1f2229 ;
-  color: #fbfbff;
-  line-height: 50px;
-  text-decoration: none;
-  text-align: center;
-}
-#main-nav a:hover{
-  background-color: #2e3138 ;
-}
-
 /* ========================== titre et presentation */
-
-div#pres-resto {
+.container
+{
+  height: auto;
   width: 100%;
-  height:auto;
   margin: 0;
   padding: 0;
 }
-div#pres-resto #pres-resto-text {
-  width: 100%;
-  height:500px;
-  background-image: url(../img/burger.jpg);
-  background-position: center ;
-  background-repeat:no-repeat;
-  background-size: cover;
-  justify-content: flex-start;
-  align-items: center;
+
+#pres-resto-text {
+  font-size: 1em;
+  line-height: 1.5em;
 }
-div#pres-resto #pres-resto-text h1{
-  color: white;
-  margin-left: 100px;
-  font-size: 20px;
-  font-weight: 300;
-  line-height:30px;
+
+#presBurger {
+  width: 100%;
+  height: auto;
 }
 
 /* ========================== zone des plats et menu */
