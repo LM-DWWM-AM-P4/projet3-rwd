@@ -19,10 +19,10 @@ body, html {
  text-align: center;
  background-color: #1f2229;
 }
-.flex {
+/*.flex {
   display: flex;
   flex-wrap: wrap;
-}
+}*/
 
 /* ========================== en tete nav barre + titre avec photo  */
 

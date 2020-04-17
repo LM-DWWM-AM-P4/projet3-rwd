@@ -8,28 +8,33 @@
     <link href="assets/CSS/style.css" rel="stylesheet" type="text/css">
     <link href="assets/img/favicon.png" rel="icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a6ad6fac17.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap/CSS -->
+    <link rel="stylesheet" href="assets/libs/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
     <!-- ====================== en tete nav barre + titre avec photo -->
     <header>
         <!-- ================== Nav barre ================== -->
-        <div id="box-nav" class="flex">
 
-            <div id="nav-logo" class="flex">
-                <figure></figure>
-            </div>
-
-            <div id="main-nav" class="flex">
-                <ul class="flex">
-                    <li><a href="#pres-resto">Accueil</a>
-                    <li><a href="#menu-box">Menus</a>
-                    <li><a href="#contact">Contact</a>
-                </ul>
-            </div>
+<nav class="navbar bg-dark navbar-expand-sm bg-dark">
+    <ul class="navbar-nav">
+        <div id="nav-logo" class="col-sm-3 col-md-3 align">
+            <figure></figure>
         </div>
+        <li class="nav-item">
+            <a class="nav-link" href="#pres-resto">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#menu-box">Menus</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+        </li>
+    </ul>
+</nav>
         <!-- ================= zone presentation du resto -->
         <div id="pres-resto" class="flex">
             <div id="pres-resto-text" class="flex">
@@ -329,7 +334,6 @@
             <p>© Tous droits réservés - Fifty's American Diner - 2020</p>
         </div>
     </footer>
-</body>
 
 
 <script>
@@ -375,4 +379,10 @@
     }
 </script>
 
+<!-- Bootstrap Libs -->
+<script src="https://kit.fontawesome.com/a6ad6fac17.js" crossorigin="anonymous"></script>
+<script src="assets/libs/js/jquery-3.4.1.min.js"></script>
+<script src="assets/libs/js/all.js"></script>
+<script src="assets/libs/js/bootstrap.bundle.js"></script>
+</body>
 </html>
