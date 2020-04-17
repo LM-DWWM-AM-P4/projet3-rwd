@@ -19,10 +19,11 @@ body, html {
  text-align: center;
  background-color: #1f2229;
 }
-/*.flex {
+
+.flex {
   display: flex;
   flex-wrap: wrap;
-}*/
+}
 
 /* ========================== en tete nav barre + titre avec photo  */
 
@@ -31,11 +32,28 @@ header{
   height: auto;
   background-color: white;
   margin: 0 auto;
-  color: #040f16;
+  /*color: #040f16;*/
 }
 
 /* ========================== nav barre */
 
+#nav-logo {
+  width: 50%;
+  justify-content: left;
+  align-items: left;
+}
+
+#nav-logo figure{
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 500px;
+  height: 40px;
+  margin: auto;
+}
+
+/*
 #box-nav{
   width: 100%;
   padding: 0;
@@ -74,21 +92,7 @@ header{
 #main-nav a:hover{
   background-color: #2e3138 ;
 }
-div#nav-logo {
-  width:30%;
-  justify-content: center;
-  align-items: center;
-}
-div#nav-logo figure {
-  background-image: url(../img/logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 500px;
-  height: 40px;
-  margin: auto;
-}
-
+*/
 /* ========================== titre et presentation */
 
 div#pres-resto {

@@ -18,24 +18,26 @@
     <!-- ====================== en tete nav barre + titre avec photo -->
     <header>
         <!-- ================== Nav barre ================== -->
-
+<div class="subHeader fixed-top">
 <nav class="navbar bg-dark navbar-expand-sm bg-dark">
-    <ul class="navbar-nav">
-        <div id="nav-logo" class="col-sm-3 col-md-3 align">
-            <figure></figure>
-        </div>
-        <li class="nav-item">
-            <a class="nav-link" href="#pres-resto">Accueil</a>
+    <a id="nav-logo" class="flex col-sm-1 col-md-6">
+        <figure></figure>
+    </a>
+    <ul class="navbar-nav">       
+        <li class="nav-item col-sm-1 col-md-2 col-xl-3">
+            <a class="nav-link text-light" href="#pres-resto">Accueil</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#menu-box">Menus</a>
+        <li class="nav-item col-sm-1 col-md-2 col-xl-3">
+            <a class="nav-link text-light" href="#menu-box">Menus</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+        <li class="nav-item col-sm-1 col-md-2 col-xl-3">
+            <a class="nav-link text-light" href="#contact">Contact</a>
         </li>
     </ul>
 </nav>
+</div>
         <!-- ================= zone presentation du resto -->
+
         <div id="pres-resto" class="flex">
             <div id="pres-resto-text" class="flex">
                 <h1>Le<b> Fifty's americain diner </b>est un restaurant à l'ambiance typiquement US.<br>
@@ -44,6 +46,8 @@
                 </h1>
             </div>
         </div>
+
+
     </header>
     <!-- ===================== zone des plats et menu -->
     <section id="pin-dishes">
@@ -384,5 +388,6 @@
 <script src="assets/libs/js/jquery-3.4.1.min.js"></script>
 <script src="assets/libs/js/all.js"></script>
 <script src="assets/libs/js/bootstrap.bundle.js"></script>
+<script src="assets/libs/js/popper.js"></script>
 </body>
 </html>
