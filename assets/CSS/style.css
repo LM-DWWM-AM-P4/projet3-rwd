@@ -248,14 +248,22 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   margin-bottom: 1.5rem; 
 }
 
+.dessert
+{
+  margin: 10px;
+  margin-left:-40px;
+  margin-right: -40px;
+  margin-top: 25px;
+}
 
 
 /* ========================== slider debut */
-
+/* 
 .mySlides {display: none}
 img {vertical-align: middle;}
 
-/* Slideshow container */
+/* Slideshow container */ 
+
 .slideshow-container {
   max-width:500px;
   
@@ -353,7 +361,7 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
-}
+} */
 
 /* ========================== slider fin */
 
@@ -489,7 +497,7 @@ footer div#copyright {
 
 /* ========================== Responsive */
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
   .center {
     display: block;
     width: 100%;
@@ -508,6 +516,9 @@ footer div#copyright {
     width: 90%;
   }
 } 
+
+
+
 @media screen and (max-width:768px) {
   .center {
     display: block;
@@ -570,6 +581,15 @@ footer div#copyright {
     width:100%;
   }
 } 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:425px) {
   div#nav-logo  {
     width: 100%;
@@ -642,4 +662,4 @@ footer div#copyright {
     transition: all 0.5s;
     display:block!important;
   }
-}
+} */
