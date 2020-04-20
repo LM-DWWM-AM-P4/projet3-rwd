@@ -18,11 +18,7 @@ body, html {
  text-align: center;
  background-color: #1f2229;
 }
-main
-{
-  margin: 0;
-  padding: 0;
-}
+
 /* ========================== en tete nav barre + titre avec photo  */
 
 header{
@@ -70,13 +66,12 @@ header{
 }
 
 /* ========================== titre et presentation */
-.containerBurger
+.container
 {
-  height: 40vh;
+  height: 500px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  margin-top: 5vh;
+  margin-top: 10.5vh;
+  margin-bottom: 1rem;
   padding: 0;
   background-image: url(../img/burger.jpg);
   background-size: cover;
@@ -87,31 +82,20 @@ header{
 #pres-resto-text {
   font-size: 1em;
   line-height: 1.5em;
-  margin-left: 0.75em;
-  margin-right: 0.75em;
-
 }
-@media screen and (min-width:425px) {
-  #pres-resto-text {
-  font-size: 1.5em;
-  line-height: 2em;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  }
 
 #presBurger {
   width: 100%;
   height: auto;
 }
 
-
 /* ========================== zone des plats et menu */
 
 section#pin-dishes {
-  width: 90%;
-  height: auto;
+  width:80%;
+  height:auto ;
   margin: 0 auto;
-  padding: 100px 0px 0px 0px;*/
+  padding: 100px 0px 0px 0px;
 }
 div.container-dishes {
   width: 100%;
