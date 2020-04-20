@@ -77,19 +77,19 @@ header{
 }
 
 /* ========================== titre et presentation */
-/*.containerBurger
+.containerBurger
 {
   height: 40vh;
   width: 100%;
   display: flex;
   align-items: center;
-  margin-top: 5vh;
   padding: 0;
   background-image: url(../img/burger.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  justify-content: flex-start;
   background-position: center;
-}*/
+}
 
 #pres-resto-text {
   font-size: 1em;
@@ -98,6 +98,27 @@ header{
   margin-right: 0.75em;
 
 }
+@media screen and (max-width:768px)
+{
+ .container-dishes
+ {
+   visibility: hidden;
+   display: none;
+ }
+ .carouselleselct
+ {
+   margin-top: -40em;
+ }
+}
+@media screen and (min-width:770px)
+{
+ .carouselleselct
+ {
+   visibility: hidden;
+   display: none;
+ }
+} 
+
 
 #presBurger {
   width: 100%;
@@ -459,27 +480,6 @@ footer li i{
   .espace-parralax {
     height: 10rem;
   }
-
-  @media screen and (max-width:768px)
-{
- .container-dishes, .hiddenmenumobile
- {
-   visibility: hidden;
-   display: none;
- }
- .carouselleselct
- {
-   margin-top: -40em;
- }
-}
-@media screen and (min-width:770px)
-{
- .carouselleselct, .modalmobile
- {
-   visibility: hidden;
-   display: none;
- }
-}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
