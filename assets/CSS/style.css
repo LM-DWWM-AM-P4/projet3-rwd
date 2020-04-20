@@ -66,22 +66,27 @@ header{
 }
 
 /* ========================== titre et presentation */
+
 .container
 {
-  height: auto;
+  height: 40vh;
   width: 100%;
-  margin-top: 10.5vh;
-  margin-bottom: 0;
+  /* margin-top: 10.5vh; */
+  margin-top: 5vh;
   padding: 0;
   background-image: url(../img/burger.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  justify-content: flex-start;
   background-position: center;
+  display:flex;
+  align-items: center;
 
 }
 
 #pres-resto-text {
-  font-size: 1em;
+  margin-left: 100px;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 
@@ -89,7 +94,13 @@ header{
   width: 100%;
   height: auto;
 }
-
+@media screen and (min-width:425px) {
+  #pres-resto-text {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  }
 /* ========================== zone des plats et menu */
 
 section#pin-dishes {
