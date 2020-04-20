@@ -23,93 +23,38 @@
     <header>
         <!-- ================== Nav barre ================== -->
         <div class="subHeader fixed-top">
-        <nav class="navbar bg-dark navbar-expand-xs justify-content-center">
-            <a id="nav-logo" class=""><figure></figure></a>
-            <ul class="navbar-nav">       
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#pres-resto">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#menu-box">Menus</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
+            <nav class="navbar bg-dark navbar-expand-xs justify-content-center">
+                <a id="nav-logo" class="">
+                    <figure></figure>
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#pres-resto">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#menu-box">Menus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-                <!-- ================= zone presentation du resto -->
+        <!-- ================= zone presentation du resto -->
         <div class="container">
             <img id="presBurger" src="assets/img/burger.jpg" alt="burger_succulent">
-                <p id="pres-resto-text" class="text-light p-2">
-                    Le <b>Fifty's americain diner</b>
-                    est un restaurant à l'ambiance typiquement US.<br>
-                    Dans un environnement haut en couleur,
-                    il est possible d'y manger sur place ou à emporter,
-                    avec nos préparations aux goûts américains.
-                </p>
+            <p id="pres-resto-text" class="text-light p-2">
+                Le <b>Fifty's americain diner</b>
+                est un restaurant à l'ambiance typiquement US.<br>
+                Dans un environnement haut en couleur,
+                il est possible d'y manger sur place ou à emporter,
+                avec nos préparations aux goûts américains.
+            </p>
         </div>
 
     </header>
+
     <!-- ===================== zone des plats et menu -->
-    <!-- <section id="pin-dishes">
-        <div class="title">
-            <h2>Sélections</h2>
-        </div>
-        <div class="container-dishes flex">
-            <div class="dishes-bloc flex">
-                <div class="dishes-img">
-                    <figure></figure>
-                    <div class="text-survol-dishes flex">
-                        <p>Indiana Burger</p>
-                    </div>
-                </div>
-            </div>
-            <div class="dishes-bloc flex">
-                <div class="dishes-img">
-                    <figure></figure>
-                    <div class="text-survol-dishes flex">
-                        <p>Don Gorske</p>
-                    </div>
-                </div>
-            </div>
-            <div class="dishes-bloc flex">
-                <div class="dishes-img">
-                    <figure></figure>
-                    <div class="text-survol-dishes flex">
-                        <p>Salade Cobb</p>
-                    </div>
-                </div>
-            </div>
-            <div class="dishes-bloc flex">
-                <div class="dishes-img">
-                    <figure></figure>
-                    <div class="text-survol-dishes flex">
-                        <p>Salmon Salad</p>
-                    </div>
-                </div>
-            </div>
-            <div class="dishes-bloc flex">
-                <div class="dishes-img">
-                    <figure></figure>
-                    <div class="text-survol-dishes flex">
-                        <p>Milkshake</p>
-                    </div>
-                </div>
-            </div>
-            <div class="dishes-bloc flex">
-                <div class="dishes-img">
-                    <figure></figure>
-                    <div class="text-survol-dishes flex">
-                        <p>Café Gourmand</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-<<<<<<< HEAD
-
-
-    </section> -->
 
     <div class="container-fluid" style="width: 80%;margin-left: 10.7%;">
         <div class="bg-dark text-white text-center p-2"
@@ -323,66 +268,77 @@
 
 
     <!-- ===================== zone contact ards + tel, etc.. -->
-    <!-- <div class="espace-parralax"></div>
 
-                <section id="contact" class="flex">
-                    <div class="title">
-                        <h2>Contact - Réservation</h2>
+    <section class="mb-5">
+
+        <div class="row contact d-flex justify-content-center">
+
+            <div class="col-12 contact1 text-white text-center align-middle">
+                <h2 class="mb-0 p-2">Contact - Réservation</h2>
+            </div>
+
+            <div class="col-md-6 p-0">
+                <div id="contact-img"></div>
+            </div>
+
+            <div class="col-md-6 form1 d-flex flex-wrap align-content-center text-white">
+                <form>
+                    <div class="contact-block-formulaire-type">
+                        <label for="name">Votre Nom : *</label><br>
+                        <input type="text" id="name" name="name" placeholder="EX: Jean DUPOND" required>
                     </div>
-                    <div id="container-contact" class="flex">
-                        <div id="contact-img"></div>
-                        <div id="contact-block-formulaire">
-                            <form>
-                                <div class="contact-block-formulaire-type">
-                                    <label for="name">Votre Nom : *</label><br>
-                                    <input type="text" id="name" name="name" placeholder="EX: Jean DUPOND" required>
-                                </div>
-                                <div class="contact-block-formulaire-type">
-                                    <label for="mail">Votre Email : *</label><br>
-                                    <input type="email" id="mail" name="mail" placeholder="EX: abc@gmail.com" required>
-                                </div>
-                                <div class="contact-block-formulaire-type">
-                                    <label for="object">Sujet : *</label><br>
-                                    <input type="text" id="object" name="object" required>
-                                </div>
-                                <div class="contact-block-formulaire-type">
-                                    <label for="message">Votre Message : *</label><br>
-                                    <textarea id="message" name="message" placeholder="Message" required></textarea>
-                                </div>
-                                <input id="contact-submit" type="submit" value="Envoyer le message">
-                            </form>
-                        </div>
+                    <div class="contact-block-formulaire-type">
+                        <label for="mail">Votre Email : *</label><br>
+                        <input type="email" id="mail" name="mail" placeholder="EX: abc@gmail.com" required>
                     </div>
-                </section> -->
-
-
-
-
-    <!-- =====================pied de page les mention legales -->
-
-    <!-- <footer class="flex">
-                    <div id="info" class="flex">
-                        <div id="info-co" class="flex">
-                            <h2>Coordonnées :</h2>
-                            <ul>
-                                <li><i class="fas fa-clock"></i>Horaires : lun - sam 12:00-13:45 / mardi - ven
-                                    19:00-22:00</li>
-                                <li><i class="fas fa-map-marker-alt"></i>Adresse : 35 Rue Pierre Guinard, 76600 Le
-                                    Havre, France
-                                </li>
-                                <li><i class="fas fa-phone-alt"></i>Numéro : +33 9 84 37 58 29 </li>
-                            </ul>
-                        </div>
+                    <div class="contact-block-formulaire-type">
+                        <label for="object">Sujet : *</label><br>
+                        <input type="text" id="object" name="object" required>
                     </div>
-                    <div id="maps">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.9558504048323!2d0.12832201591897804!3d49.48534096431054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02eff8ff06fb7%3A0x8719a61ecd8edd6b!2s35%20Rue%20Pierre%20Guinard%2C%2076600%20Le%20Havre!5e0!3m2!1sfr!2sfr!4v1586185580753!5m2!1sfr!2sfr"
-                            allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div class="contact-block-formulaire-type">
+                        <label for="message">Votre Message : *</label><br>
+                        <textarea id="message" name="message" placeholder="Message" required></textarea>
                     </div>
-                    <div id="copyright">
-                        <p>© Tous droits réservés - Fifty's American Diner - 2020</p>
-                    </div>
-                </footer> -->
+                    <button id="contact-submit" type="submit" value="Envoyer le message">Envoyer le message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===================== pied de page les mention legales -->
+
+    <footer class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-6 footer-1 text-white p-3 d-flex flex-wrap align-content-center">
+                <h2>Coordonnées :</h2>
+                <ul>
+                    <li class="mb-3"><i class="fas fa-clock"></i>Horaires : lun - sam 12:00-13:45 / mardi - ven
+                        19:00-22:00</li>
+                    <li class="mb-3"><i class="fas fa-map-marker-alt"></i>Adresse : 35 Rue Pierre Guinard, 76600 Le
+                        Havre, France
+                    </li>
+                    <li><i class="fas fa-phone-alt"></i>Numéro : +33 9 84 37 58 29 </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 footer-2 p-0">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.9558504048323!2d0.12832201591897804!3d49.48534096431054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02eff8ff06fb7%3A0x8719a61ecd8edd6b!2s35%20Rue%20Pierre%20Guinard%2C%2076600%20Le%20Havre!5e0!3m2!1sfr!2sfr!4v1586185580753!5m2!1sfr!2sfr"
+                    allowfullscreen="" aria-hidden="false" tabindex="0" class="border-0"></iframe>
+            </div>
+
+            <div class="col-12 copyright text-center text-white">
+                <p class="mb-0">© Tous droits réservés - Fifty's American Diner - 2020</p>
+            </div>
+
+        </div>
+
+    </footer>
+
     <script src="assets/libs/js/jquery-3.4.1.min.js"></script>
     <script src="assets/libs/js/bootstrap.bundle.js"></script>
     <script src="assets/libs/js/bootstrap.js"></script>
@@ -433,89 +389,7 @@
             dots[slideIndex - 1].className += " active";
         }
     </script>
-</body>
-
-=======
-    </section>
-
-
-    <section class="mb-5">
-
-        <div class="row contact d-flex justify-content-center">
-
-            <div class="col-12 contact1 text-white text-center align-middle">
-                <h2 class="mb-0 p-2">Contact - Réservation</h2>
-            </div>
-
-                <div class="col-md-6 p-0">
-                    <div id="contact-img"></div>
-                </div>
-
-                <div class="col-md-6 form1 d-flex flex-wrap align-content-center text-white">
-                    <form>
-                        <div class="contact-block-formulaire-type">
-                            <label for="name">Votre Nom : *</label><br>
-                            <input type="text" id="name" name="name" placeholder="EX: Jean DUPOND" required>
-                        </div>
-                        <div class="contact-block-formulaire-type">
-                            <label for="mail">Votre Email : *</label><br>
-                            <input type="email" id="mail" name="mail" placeholder="EX: abc@gmail.com" required>
-                        </div>
-                        <div class="contact-block-formulaire-type">
-                            <label for="object">Sujet : *</label><br>
-                            <input type="text" id="object" name="object" required>
-                        </div>
-                        <div class="contact-block-formulaire-type">
-                            <label for="message">Votre Message : *</label><br>
-                            <textarea id="message" name="message" placeholder="Message" required></textarea>
-                        </div>
-                        <button id="contact-submit" type="submit" value="Envoyer le message">Envoyer le message</button>
-                    </form>
-                </div>
-
-        </div>
-
-    </section>
-
-
-
-
-    <!-- =====================pied de page les mention legales -->
-
-    <footer class="container-fluid">
-
-        <div class="row">
-
-            <div class="col-md-6 footer-1 text-white p-3 d-flex flex-wrap align-content-center">
-                <h2>Coordonnées :</h2>
-                <ul>
-                    <li class="mb-3"><i class="fas fa-clock"></i>Horaires : lun - sam 12:00-13:45 / mardi - ven
-                        19:00-22:00</li>
-                    <li class="mb-3"><i class="fas fa-map-marker-alt"></i>Adresse : 35 Rue Pierre Guinard, 76600 Le
-                        Havre, France
-                    </li>
-                    <li><i class="fas fa-phone-alt"></i>Numéro : +33 9 84 37 58 29 </li>
-                </ul>
-            </div>
-
-            <div class="col-md-6 footer-2 p-0">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.9558504048323!2d0.12832201591897804!3d49.48534096431054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02eff8ff06fb7%3A0x8719a61ecd8edd6b!2s35%20Rue%20Pierre%20Guinard%2C%2076600%20Le%20Havre!5e0!3m2!1sfr!2sfr!4v1586185580753!5m2!1sfr!2sfr"
-                    allowfullscreen="" aria-hidden="false" tabindex="0" class="border-0"></iframe>
-            </div>
-
-            <div class="col-12 copyright text-center text-white">
-                <p class="mb-0">© Tous droits réservés - Fifty's American Diner - 2020</p>
-            </div>
-
-        </div>
-
-    </footer>
 
 </body>
-<<<<<<< HEAD
 
-=======
->>>>>>> 0c3303872462bc34acda0260662f6f97d1be6391
->>>>>>> 9ce49aed51e0f7ff0a6581061597c1cc924a9caf
 </html>
