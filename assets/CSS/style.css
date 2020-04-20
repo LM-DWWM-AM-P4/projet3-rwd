@@ -95,6 +95,119 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.contact {
+  margin: 0 auto;
+  width: 80%;
+  padding: 100px 0px 100px 0px;
+  background-color: #ffffff;
+  text-align:left;
+}
+.contact1 {
+  background-color: #1f2229;
+  height: auto;
+  margin:10px;
+}
+#contact-img{
+  background-image: url(../img/contact-left.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+}
+.form1 {
+  background-color: #C72C41;
+  height: auto;
+  width: 100%;
+}
+form {
+  width: 100%;
+}
+.contact-block-formulaire-type{
+  padding: 0.5rem 0;
+  width: 100%;
+  margin-left: 1rem;
+}
+.contact-block-formulaire-type input,textarea{
+  padding: 0.4rem;
+  background-color: #ffffff;
+  border: 0;
+  width: 90%;
+}
+input {
+  height: 26px;
+}
+textarea{
+  height: 10rem;
+}
+label {
+  margin-bottom: 0px;
+}
+#contact-submit{
+  padding: 0.2rem;
+  background-color: white;
+  color: #1f2229;
+  margin-left: 1rem;
+  border: 0;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.5s;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+#contact-submit:hover{
+  color: white;
+  background-color: #1f2229;
+  border: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+/* ========================== Maps */
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* ========================== pied de page les mention legales */
+
+.footer-1 {
+  background-color:#1f2229;
+  height: 300px;
+}
+.footer-2 {
+  height: 300px;
+}
+footer li {
+  list-style-type: none;
+  font-size: 20px;
+}
+footer li i{ 
+  color:#C72C41;  
+  padding-right: 15px;
+  width: auto;
+  height: auto;
+}
+.copyright {
+  width: 100%;
+  height: auto;
+  background-color:#C72C41;
+}
+
+/* ========================== Responsive */
+
+@media screen and (max-width:768px) {
+  #contact-img {
+    width: 100%;
+    height: 15rem;
+  }
+
+@media screen and (max-width:425px) {
+  .espace-parralax {
+    height: 10rem;
+  }
 section#pin-dishes {
   width:80%;
   height:auto ;
