@@ -68,16 +68,15 @@ header{
 /* ========================== titre et presentation */
 .container
 {
-  height: auto;
+  height: 500px;
   width: 100%;
   margin-top: 10.5vh;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   padding: 0;
   background-image: url(../img/burger.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 #pres-resto-text {
@@ -444,6 +443,27 @@ footer li i{
   .espace-parralax {
     height: 10rem;
   }
+
+  @media screen and (max-width:768px)
+{
+ .container-dishes, .hiddenmenumobile
+ {
+   visibility: hidden;
+   display: none;
+ }
+ .carouselleselct
+ {
+   margin-top: -40em;
+ }
+}
+@media screen and (min-width:770px)
+{
+ .carouselleselct, .modalmobile
+ {
+   visibility: hidden;
+   display: none;
+ }
+}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
