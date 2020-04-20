@@ -18,7 +18,11 @@ body, html {
  text-align: center;
  background-color: #1f2229;
 }
-
+main
+{
+  margin: 0;
+  padding: 0;
+}
 /* ========================== en tete nav barre + titre avec photo  */
 
 header{
@@ -29,6 +33,29 @@ header{
 }
 
 /* ========================== nav barre */
+
+/* test */
+.navbar {
+  background-color: #343A40;
+  font-size: 12px;
+  border-bottom: 1px solid #fff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-pills .nav-link{
+  color: #fff !important;
+  text-align: center;
+}
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
+  color: #d82c2e !important;
+  background-color: #fff !important;
+}
+.navbar-toggler{
+  color: #fff !important;
+  border-style: none;
+}
+/* test */
 .navbar-nav
 {
   margin: 0;
@@ -66,12 +93,12 @@ header{
 }
 
 /* ========================== titre et presentation */
-
-.container
+.containerBurger
 {
   height: 40vh;
   width: 100%;
-  /* margin-top: 10.5vh; */
+  display: flex;
+  align-items: center;
   margin-top: 5vh;
   padding: 0;
   background-image: url(../img/burger.jpg);
@@ -79,35 +106,51 @@ header{
   background-repeat: no-repeat;
   justify-content: flex-start;
   background-position: center;
-  display:flex;
-  align-items: center;
-
 }
 
 #pres-resto-text {
   margin-left: 100px;
   font-size: 1.5em;
   line-height: 1.5em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+
 }
+@media screen and (max-width:768px)
+{
+ .container-dishes
+ {
+   visibility: hidden;
+   display: none;
+ }
+ .carouselleselct
+ {
+   margin-top: -40em;
+ }
+}
+@media screen and (min-width:770px)
+{
+ .carouselleselct
+ {
+   visibility: hidden;
+   display: none;
+ }
+} 
+
 
 #presBurger {
   width: 100%;
   height: auto;
 }
-@media screen and (min-width:425px) {
-  #pres-resto-text {
-  font-size: 1.5em;
-  line-height: 2em;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  }
+
+
 /* ========================== zone des plats et menu */
 
 section#pin-dishes {
-  width:80%;
-  height:auto ;
+  width: 90%;
+  height: auto;
   margin: 0 auto;
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0px 0px 0px;*/
 }
 div.container-dishes {
   width: 100%;
@@ -442,21 +485,3 @@ footer li i{
   height: auto;
   background-color:#C72C41;
 }
-
-/* ========================== Responsive */
-
-@media screen and (max-width:768px) {
-  #contact-img {
-    width: 100%;
-    height: 15rem;
-  }
-
-@media screen and (max-width:425px) {
-  .espace-parralax {
-    height: 10rem;
-  }
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-} */
