@@ -86,18 +86,11 @@ header{
 
 #pres-resto-text {
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.2em;
   margin-left: 0.75em;
   margin-right: 0.75em;
 
 }
-@media screen and (min-width:425px) {
-  #pres-resto-text {
-  font-size: 1.5em;
-  line-height: 2em;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  }
 
 #presBurger {
   width: 100%;
