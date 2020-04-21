@@ -73,13 +73,14 @@
 
 
     <main>
-        <!-- ===================== zone des plats et menu===============
-            =====================  Selection de menus  ===================== -->
 
-        <section id="pin-dishes">
-            <div class="col-12 contact1 text-white text-center align-middle  p-0 m-0 mb-5">
-                <h2 class="mb-0 p-2">Sélections</h2>
+        <!-- SELECTION -->
+        <section class="row py-5 title d-flex justify-content-center">
+
+            <div class="col-12 title1 text-white text-center align-middle">
+                <h2 class="mb-0 p-2">Sélection</h2>
             </div>
+
             <div class="container-dishes col-12 d-flex flex-wrap">
                 <div class="dishes-bloc">
                     <div class="dishes-img">
@@ -196,19 +197,30 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
+
         </section>
-        <!-- =============================================================== -->
-        <div class="row contact d-flex justify-content-center pb-0 pt-0">
-            <div class="col-12 contact1 text-white text-center align-middle">
+
+        <!-- CARTE DES PLATS-->
+        <div class="row py-5 title d-flex justify-content-center">
+
+            <div class="col-12 title1 text-white text-center align-middle">
                 <h2 class="mb-0 p-2">Carte des plats</h2>
             </div>
 
             <!-- MODAL BURGER MOBILE -->
             <div class="modalmobile d-flex justify-content-center">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger text-white p-2 m-3" data-toggle="modal"
+                <button type="button" class="btn text-white p-2 m-3 btn-burger" data-toggle="modal"
                     data-target="#modalburgermobile">
                     <h3 class="m-0">BURGERS</h3>
                 </button>
@@ -335,9 +347,8 @@
 
             <div class="hiddenmenumobile">
 
-                <div class="menu-box-column mt-8  w-100" style="margin-left: 1px;">
-                    <h3 class="bg-danger text-white p-2">BURGERS</h3>
-                    <div class="col"></div>
+                <div class="menu-box-column mt-8 w-100" style="margin-left: 1px;">
+                    <h3 class="bg-danger text-white p-2 mb-3">BURGERS</h3>
                     <h4>Nos Burgers avec des frites fraîches</h4>
                     <h5>Échangez les frites de votre Burger !</h5>
                     <p>Frites de patates douces : +2.50 €<br>
@@ -345,7 +356,7 @@
                         Frites cheddar bacon 18 mois : +3.50 €<br>
                         Frites de patates douces parmesan et coriandre : +3.50 €<br></p>
                 </div>
-                <div class=" col ml-n3 menu-box-column-dessert">
+                <div class="col ml-n3 menu-box-column-dessert">
                     <div>
                         <span>Cheeseburger : 12.50€</span><br>
                         <p>Bœuf haché, cheddar 9 mois, oignons frits, Iceberg, relish, sauce mayo, ketchup et
@@ -428,7 +439,7 @@
             <!-- MODAL PIMP TON BURGER MOBILE -->
             <div class="modalmobile d-flex justify-content-center">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger text-white p-2 m-3" data-toggle="modal"
+                <button type="button" class="btn text-white p-2 m-3 btn-pimp" data-toggle="modal"
                     data-target="#modalpimpmobile">
                     <h3 class="m-0">SUPPLÉMENTS</h3>
                 </button>
@@ -476,28 +487,26 @@
 
             <div class="hiddenmenumobile">
 
-                <div class="col-md-6">
-                    <div class="menu-box-column  w-100">
-                        <h3 class="bg-danger text-white p-2">PIMP TON BURGER</h3>
-                        <div>
-                            <span>Supplément</span><br>
-                            <p>Onion rings +1.00€<br>
-                                Oeuf au plat +1.00€<br>
-                                Poitrine fumée +1.00€<br>
-                                Galette de pomme de terre +2.00€<br>
-                                Steak +3.50€<br><br></p>
-                            <span>Accompagnement Supplémentaire</span><br>
-                            <p>Frites fraîches classique : 3.00 €<br>
-                                Frites de patates douces : 4.50 €<br>
-                                Frites cheddar : 4.50 €<br>
-                                Frites sauce bleu bacon ciboulette : 5.00 €<br>
-                                Frites cheddar bacon : 5.50 €<br>
-                                Frites de patates douces parmesan et coriandre : 5.50 €<br><br></p>
-                            <span>Option végétarien</span><br>
-                            <p>Steak Végétal Beyond Meat, disponible en remplacement de la viande dans tout les
-                                burgers ci-dessous
-                                +2,50€ <br></p>
-                        </div>
+                <div class="menu-box-column">
+                    <h3 class="bg-danger text-white p-2 mb-3">PIMP TON BURGER</h3>
+                    <div>
+                        <span>Supplément</span><br>
+                        <p>Onion rings +1.00€<br>
+                            Oeuf au plat +1.00€<br>
+                            Poitrine fumée +1.00€<br>
+                            Galette de pomme de terre +2.00€<br>
+                            Steak +3.50€<br><br></p>
+                        <span>Accompagnement Supplémentaire</span><br>
+                        <p>Frites fraîches classique : 3.00 €<br>
+                            Frites de patates douces : 4.50 €<br>
+                            Frites cheddar : 4.50 €<br>
+                            Frites sauce bleu bacon ciboulette : 5.00 €<br>
+                            Frites cheddar bacon : 5.50 €<br>
+                            Frites de patates douces parmesan et coriandre : 5.50 €<br><br></p>
+                        <span>Option végétarien</span><br>
+                        <p>Steak Végétal Beyond Meat, disponible en remplacement de la viande dans tout les
+                            burgers ci-dessous
+                            +2,50€ <br></p>
                     </div>
                 </div>
 
@@ -506,7 +515,7 @@
             <!-- MODAL SALADES MOBILE-->
             <div class="modalmobile d-flex justify-content-center">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger text-white p-2 m-3" data-toggle="modal"
+                <button type="button" class="btn text-white p-2 m-3 btn-salad" data-toggle="modal"
                     data-target="#modalsalademobile">
                     <h3 class="m-0">SALADES</h3>
                 </button>
@@ -567,11 +576,7 @@
 
             <div class="hiddenmenumobile">
 
-                <h3 class="bg-danger text-white p-2">SALADES</h3>
                 <div>
-                    <span>Cæsar salad: 11.90€</span><br>
-                    <p>Salade, tomates, parmesan, croûtons, filet de poulet pané, sauce cæsar.</p>
-                </div>
                 <div>
                     <span>Salmon salad : 12.90€</span><br>
                     <p>Salade, tomates confites, concombre, avocat, noix, féta, saumon fumé.</p>
@@ -632,9 +637,9 @@
             <!-- MODAL DESSERT MOBILE -->
             <div class="modalmobile d-flex justify-content-center">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger text-white p-2 m-3" data-toggle="modal"
+                <button type="button" class="btn text-white p-2 m-3 btn-dessert" data-toggle="modal"
                     data-target="#modaldessertsmobile">
-                    <h3 class="m-0">DESSERTS</h3>
+                    <h3 class="m-0 mb-3">DESSERTS</h3>
                 </button>
 
                 <!-- Modal -->
@@ -716,13 +721,12 @@
             </div>
         </div>
 
-        <!-- ===================== zone contact ards + tel, etc.. -->
+        <!--  CONTACT - RESERVATION -->
+        <section class="mb-2">
 
-        <section class="mb-5">
+            <div class="row pt-0 pb-5 title d-flex justify-content-center">
 
-            <div class="row contact d-flex justify-content-center pt-0">
-
-                <div class="col-12 contact1 text-white text-center align-middle">
+                <div class="col-12 title1 text-white text-center align-middle">
                     <h2 class="mb-0 p-2">Contact - Réservation</h2>
                 </div>
 
@@ -755,12 +759,13 @@
             </div>
 
         </section>
-    </main>
-    <!-- ===================== pied de page les mention legales -->
 
+    </main>
+
+    <!-- COORDONNEES - MAP - MENTIONS LEGALES -->
     <footer class="container-fluid">
 
-        <div class="row">
+        <div class="row p-0">
 
             <div class="col-md-6 footer-1 text-white p-3 d-flex flex-wrap align-content-center">
                 <h2>Coordonnées :</h2>
@@ -792,7 +797,7 @@
     <script src="assets/libs/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/a6ad6fac17.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
+    <!-- <script>
         $(document).ready(function () {
 
 
@@ -836,7 +841,7 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }
-    </script>
+    </script> -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
