@@ -9,16 +9,12 @@ body, html {
 }
 .title {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   padding: 100px 0px 100px 0px;
   background-color: #ffffff;
   text-align:left;
 }
-.title1 {
-  background-color: #1f2229;
-  height: auto;
-  margin:10px;
-}
+
 
 /* ========================== en tete nav barre + titre avec photo  */
 
@@ -31,30 +27,22 @@ header{
 
 /* ========================== nav barre */
 /* navbar text */
-nav {
-  display: flex;
+nav
+{
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1920px;
-  margin: 0 auto;
-  background-color: #912323;
-  position: sticky;
-  z-index: 20;
-  top: 0px;
-
 }
 /* STYLISER LES MENUS */
 nav ul {
   list-style-type: none;
 }
-
-nav ul li {
+nav ul li 
+{
   float: left;
   width: 220px;
   text-align: center;
   position: relative;
 }
+
 
 nav ul::after {
   content: "";
@@ -63,29 +51,21 @@ nav ul::after {
 }
 
 nav a {
-  text-transform: uppercase;
   display: block;
   width: 220px;
-  text-decoration: none;
-  color: #FFF;
-  border-bottom: 2px solid transparent;
-  padding: 10px 0px;
 }
 
 nav a:hover {
   color: rgb(172, 167, 167);
-  border-bottom: 2px solid #FFF;
 }
 
 /* FIN DE STYLISATON DES MENU  */
 /* STULISER LES SOUS MENU */
 .sous {
   display: none;
-  box-shadow: 0px 1px 2px #CCC;
-  background-color: #912323;
   position: absolute;
   width: 100%;
-  z-index: 1000;
+  z-index: 3;
 }
 
 nav>ul li:hover .sous {
@@ -175,6 +155,19 @@ nav>ul li:hover .sous {
 
 /* ========================== titre et presentation */
 
+.containerBurger
+{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 10vh;
+  background-image: url(../img/burger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: flex-start;
+  background-position: center;
+}
 
 #pres-resto-text {
   font-size: 1em;
@@ -183,10 +176,7 @@ nav>ul li:hover .sous {
   margin-right: 0.75em;
 
 }
-#presBurger {
-  width: 100%;
-  height: auto;
-}
+
 
 /* ========================== zone des plats et menu */
 

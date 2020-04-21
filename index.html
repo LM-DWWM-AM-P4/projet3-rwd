@@ -18,42 +18,27 @@
 
 </head>
 
-<body>
+<body class=" w-100">
     <!-- ====================== en tete nav barre + titre avec photo -->
     <header>
-        <!-- <div class="navbar bg-dark overflow-hidden">
-           <a id="nav-logo" href="#"><img class="logo float-xs-center float-md-left" height="80vh"
-                   src="assets/img/logo.png" alt="logoBurger"></a>
-           <a class="text-light text-decoration-none" href="#accueil">Accueil</a>
-           <div class="subnav">
-               <button class="subnavbtn">Menu<i class="fa fa-caret-down"></i></button>
-               <div class="subnav-content position-absolute w-50">
-                   <a class="text-decoration-none" href="#burgers">Burgers</a>
-                   <a class="text-decoration-none" href="#pimp">Pimp ton burger</a>
-                   <a class="text-decoration-none" href="#salads">salades</a>
-                   <a class="text-decoration-none" href="#desserts">desserts</a>
-               </div>
-           </div>
-           <a class="text-light text-decoration-none" href="#contact">Contact</a>
-    </div> -->
-        <nav class="col-12 navbar bg-dark">
+        <nav class="col-12 navbar bg-dark d-flex justify-content-center align-items-center">
             <!-- Menu deroulant -->
 
             <ul>
-                <li class="logo ">
+                <li class="logo mr-5">
                     <img class="logo float-xs-center float-md-left align-items-start" src="assets/img/logo.png"
                         alt="logoBurger">
                 </li>
-                <li><a class="text-light text-decoration-none col-sd-4" href="#accueil">Accueil</a></li>
-                <li class="deroulant "><a href="">la carte &ensp;</a>
-                    <ul class="sous bg-dark">
-                        <li><a class="text-decoration-none bg-dark" href="#burgers">Burgers</a></li>
-                        <li><a class="text-decoration-none bg-dark" href="#pimp">Pimp ton burger</a></li>
-                        <li><a class="text-decoration-none bg-dark" href="#salads">salades</a></li>
-                        <li><a class="text-decoration-none bg-dark" href="#desserts">desserts</a></li>
+                <li><a class="text-light text-decoration-none col-sd-4 text-uppercase" href="#accueil">Accueil</a></li>
+                <li class="deroulant  text-uppercase text-light text-decoration-none"><a href="">Menu &ensp;</a>
+                    <ul class="sous">
+                        <li><a class="text-decoration-none bg-danger text-light text-uppercase" href="#burgers">Burgers</a></li>
+                        <li><a class="text-decoration-none bg-danger text-light text-uppercase" href="#pimp">Pimp ton burger</a></li>
+                        <li><a class="text-decoration-none bg-danger text-light text-uppercase" href="#salads">salades</a></li>
+                        <li><a class="text-decoration-none bg-danger text-light text-uppercase" href="#desserts">desserts</a></li>
                     </ul>
                 </li>
-                <li><a class="text-light text-decoration-none" href="#contact">Contact</a></li>
+                <li><a class="text-light text-decoration-none text-uppercase" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -61,24 +46,25 @@
 
     <!-- ================= zone presentation du resto -->
     <div id="accueil" class="containerBurger col-12">
-        <!--<img class="bgBurger-flex align-items-center w-100" src="assets/img/burger.jpg" alt="">-->
         <p id="pres-resto-text" class="text-light justify-content-center p-2">
-            Le <b>Fifty's americain diner</b>
-            est un restaurant à l'ambiance typiquement US.<br>
-            Dans un environnement haut en couleur,
-            il est possible d'y manger sur place ou à emporter,
-            avec nos préparations aux goûts américains.
+            Le <b>Fifty's americain diner</b><br>
+            est un restaurant à<br>
+            l'ambiance typiquement US.<br>
+            Dans un environnement<br>
+            haut en couleur, il est possible<br>
+            d'y manger sur place ou<br> 
+            à emporter, avec nos préparations<br>
+            aux goûts américains.
         </p>
     </div>
 
 
-    <main>
+    <main class=" w-100">
 
         <!-- SELECTION -->
         <section class="row py-5 title d-flex justify-content-center">
-
-            <div class="col-12 title1 text-white text-center align-middle">
-                <h2 class="mb-0 p-2">Sélection</h2>
+            <div class="col-12 bg-dark text-white text-center align-middle  p-0 m-0 mb-5">
+                <h2 class="mb-0 p-2">Sélections</h2>
             </div>
 
             <div class="container-dishes col-12 d-flex flex-wrap">
@@ -196,24 +182,15 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
             </div>
 
         </section>
 
-        <!-- CARTE DES PLATS-->
-        <div class="row py-5 title d-flex justify-content-center">
+         <!-- CARTE DES PLATS -->
+         <div class="row py-5 title d-flex justify-content-center">
 
-            <div class="col-12 title1 text-white text-center align-middle">
+            <div class="col-12 bg-dark text-white text-center align-middle">
                 <h2 class="mb-0 p-2">Carte des plats</h2>
             </div>
 
@@ -347,7 +324,7 @@
 
             <div class="hiddenmenumobile">
 
-                <div class="menu-box-column mt-8 w-100" style="margin-left: 1px;">
+                <div class="menu-box-column col-12 mt-8 w-100" style="margin-left: 1px;">
                     <h3 class="bg-danger text-white p-2 mb-3">BURGERS</h3>
                     <h4>Nos Burgers avec des frites fraîches</h4>
                     <h5>Échangez les frites de votre Burger !</h5>
@@ -356,7 +333,7 @@
                         Frites cheddar bacon 18 mois : +3.50 €<br>
                         Frites de patates douces parmesan et coriandre : +3.50 €<br></p>
                 </div>
-                <div class="col ml-n3 menu-box-column-dessert">
+                <div class="col-12 ml-n3 menu-box-column-dessert">
                     <div>
                         <span>Cheeseburger : 12.50€</span><br>
                         <p>Bœuf haché, cheddar 9 mois, oignons frits, Iceberg, relish, sauce mayo, ketchup et
@@ -487,7 +464,7 @@
 
             <div class="hiddenmenumobile">
 
-                <div class="menu-box-column">
+                <div class="menu-box-column col-12">
                     <h3 class="bg-danger text-white p-2 mb-3">PIMP TON BURGER</h3>
                     <div>
                         <span>Supplément</span><br>
@@ -576,25 +553,26 @@
 
             <div class="hiddenmenumobile">
 
-                <div>
-                <div>
-                    <span>Salmon salad : 12.90€</span><br>
-                    <p>Salade, tomates confites, concombre, avocat, noix, féta, saumon fumé.</p>
+                <div class="menu-box-column-dessert col-12">
+                    <h3 class="bg-danger text-white p-2 mb-3">SALADES</h3>
+                    <div>
+                        <span>Salmon salad : 12.90€</span><br>
+                        <p>Salade, tomates confites, concombre, avocat, noix, féta, saumon fumé.</p>
+                    </div>
+                    <div>
+                        <span>Cobb : 12.90€</span><br>
+                        <p>Salade, Filet de poulet pané, poitrine fumée, avocat, oeuf dur, tomates, Fourme
+                            d’Ambert.</p>
+                    </div>
+                    <div>
+                        <span>Feel Good : 11.90€</span><br>
+                        <p>Salade, avocat, tomates cerises, carottes râpées, œuf, feta, falafel.</p>
+                    </div>
+                    <div><span>Little Italy : 12.90€</span><br>
+                        <p>Salade, jambon, jambon italien, mozzarella, parmesan, tomates confites, mini stick
+                            mozzarella.</p>
+                    </div>
                 </div>
-                <div>
-                    <span>Cobb : 12.90€</span><br>
-                    <p>Salade, Filet de poulet pané, poitrine fumée, avocat, oeuf dur, tomates, Fourme
-                        d’Ambert.</p>
-                </div>
-                <div>
-                    <span>Feel Good : 11.90€</span><br>
-                    <p>Salade, avocat, tomates cerises, carottes râpées, œuf, feta, falafel.</p>
-                </div>
-                <div><span>Little Italy : 12.90€</span><br>
-                    <p>Salade, jambon, jambon italien, mozzarella, parmesan, tomates confites, mini stick
-                        mozzarella.</p>
-                </div>
-
             </div>
 
             <div class="hiddenmenumobile">
@@ -688,7 +666,6 @@
 
             <div class="hiddenmenumobile">
 
-                <div class="col-md-12">
                     <div class="row col-12">
                         <div class="menu-box-column-dessert w-100">
                             <h3 class="bg-danger text-white p-2 mr-n5 ml-n5">DESSERTS</h3>
@@ -716,7 +693,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
             </div>
         </div>
@@ -726,7 +702,7 @@
 
             <div class="row pt-0 pb-5 title d-flex justify-content-center">
 
-                <div class="col-12 title1 text-white text-center align-middle">
+                <div class="col-12 bg-dark text-white text-center align-middle">
                     <h2 class="mb-0 p-2">Contact - Réservation</h2>
                 </div>
 
@@ -763,19 +739,19 @@
     </main>
 
     <!-- COORDONNEES - MAP - MENTIONS LEGALES -->
-    <footer class="container-fluid">
+    <footer class=" w-100">
 
         <div class="row p-0">
 
             <div class="col-md-6 footer-1 text-white p-3 d-flex flex-wrap align-content-center">
                 <h2>Coordonnées :</h2>
                 <ul>
-                    <li class="mb-3"><i class="fas fa-clock"></i>Horaires : lun - sam 12:00-13:45 / mardi - ven
+                    <li class="mb-3 d-flex justify-content-center px-2"><i class="fas fa-clock"></i>Horaires : lun - sam 12:00-13:45 / mardi - ven
                         19:00-22:00</li>
-                    <li class="mb-3"><i class="fas fa-map-marker-alt"></i>Adresse : 35 Rue Pierre Guinard, 76600 Le
+                    <li class="mb-3 d-flex justify-content-center px-2"><i class="fas fa-map-marker-alt"></i>Adresse : 35 Rue Pierre Guinard, 76600 Le
                         Havre, France
                     </li>
-                    <li><i class="fas fa-phone-alt"></i>Numéro : +33 9 84 37 58 29 </li>
+                    <li class="mb-3 d-flex justify-content-center px-2"><i class="fas fa-phone-alt "></i>Numéro : +33 9 84 37 58 29 </li>
                 </ul>
             </div>
 
@@ -797,52 +773,6 @@
     <script src="assets/libs/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/a6ad6fac17.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <script>
-        $(document).ready(function () {
-
-
-            $("div#nav-logo").click(function check() {
-
-                $("div#main-nav").toggleClass("menuactive");
-
-                return false;
-
-            });
-        });
-    </script>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script> -->
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>

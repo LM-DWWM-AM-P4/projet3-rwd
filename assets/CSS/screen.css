@@ -9,6 +9,31 @@
     width: 13em;
     height: auto;
   }
+  .sous {
+    display: none;
+    position: absolute;
+    width: 100%;
+  }
+  
+  nav>ul li:hover .sous {
+    display: block;
+  }
+  
+  .sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .sous a {
+    padding: 10px;
+    border-bottom: none;
+  }
+  
+  .sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200, 200, 200, 0.1);
+  }
 }
 @media screen and (min-width: 768px)
 {
@@ -67,11 +92,11 @@
    }
   }
   
-@media screen and (max-width:425px)
+/* @media screen and (max-width:425px)
  {
   .espace-parralax {
     height: 10rem;
-  }
+  } */
   @media screen and (max-width:768px) 
   {
     #contact-img {
