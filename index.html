@@ -188,18 +188,20 @@
         </section>
 
          <!-- CARTE DES PLATS -->
-         <div class="row py-5 title d-flex justify-content-center">
+         
+         <div>
 
-            <div class="col-12 bg-dark text-white text-center align-middle">
-                <h2 class="mb-0 p-2">Carte des plats</h2>
+            <div class="col-12 bg-dark text-white text-center align-middle  p-0 m-0 mb-5" >
+                <h2 class="mb-0 p-2" id="plats" id="menu">Carte des Plats</h2>
             </div>
-
+         </div>
+            <div class="col-12">
             <!-- MODAL BURGER MOBILE -->
             <div class="modalmobile d-flex justify-content-center">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn text-white p-2 m-3 btn-burger" data-toggle="modal"
                     data-target="#modalburgermobile">
-                    <h3 class="m-0">BURGERS</h3>
+                    <h3 class="m-0" id="burgers">BURGERS</h3>
                 </button>
 
                 <!-- Modal -->
@@ -209,7 +211,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <div class="modal-title" id="modalburgermobileLabel">
-                                    <h3 class="bg-danger text-white p-2">BURGERS</h3>
+                                    <h3 class="bg-danger text-white p-2" id="burgers">BURGERS</h3>
                                 </div>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -325,7 +327,7 @@
             <div class="hiddenmenumobile">
 
                 <div class="menu-box-column col-12 mt-8 w-100" style="margin-left: 1px;">
-                    <h3 class="bg-danger text-white p-2 mb-3">BURGERS</h3>
+                    <h3 class="bg-danger text-white p-2 mb-3" id="burgers">BURGERS</h3>
                     <h4>Nos Burgers avec des frites fraîches</h4>
                     <h5>Échangez les frites de votre Burger !</h5>
                     <p>Frites de patates douces : +2.50 €<br>
@@ -333,7 +335,7 @@
                         Frites cheddar bacon 18 mois : +3.50 €<br>
                         Frites de patates douces parmesan et coriandre : +3.50 €<br></p>
                 </div>
-                <div class="col-12 ml-n3 menu-box-column-dessert">
+                <div class="col-12 menu-box-column-dessert">
                     <div>
                         <span>Cheeseburger : 12.50€</span><br>
                         <p>Bœuf haché, cheddar 9 mois, oignons frits, Iceberg, relish, sauce mayo, ketchup et
@@ -418,7 +420,7 @@
                 <!-- Button trigger modal -->
                 <button type="button" class="btn text-white p-2 m-3 btn-pimp" data-toggle="modal"
                     data-target="#modalpimpmobile">
-                    <h3 class="m-0">SUPPLÉMENTS</h3>
+                    <h3 class="m-0" id="pimp">SUPPLÉMENTS</h3>
                 </button>
 
                 <!-- Modal -->
@@ -428,7 +430,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <div class="modal-title" id="modalpimpmobileLabel">
-                                    <h3 class="bg-danger text-white p-2">PIMP TON BURGER</h3>
+                                    <h3 class="bg-danger text-white p-2" id="pimp">PIMP TON BURGER</h3>
                                 </div>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -465,7 +467,7 @@
             <div class="hiddenmenumobile">
 
                 <div class="menu-box-column col-12">
-                    <h3 class="bg-danger text-white p-2 mb-3">PIMP TON BURGER</h3>
+                    <h3 class="bg-danger text-white p-2 mb-3" id="pimp">PIMP TON BURGER</h3>
                     <div>
                         <span>Supplément</span><br>
                         <p>Onion rings +1.00€<br>
@@ -554,7 +556,7 @@
             <div class="hiddenmenumobile">
 
                 <div class="menu-box-column-dessert col-12">
-                    <h3 class="bg-danger text-white p-2 mb-3">SALADES</h3>
+                    <h3 class="bg-danger text-white p-2 mb-3" id="salads">SALADES</h3>
                     <div>
                         <span>Salmon salad : 12.90€</span><br>
                         <p>Salade, tomates confites, concombre, avocat, noix, féta, saumon fumé.</p>
@@ -575,9 +577,9 @@
                 </div>
             </div>
 
-            <div class="hiddenmenumobile">
+            <div class="hiddenmenumobile justify-content-center d-flex"">
 
-                <div class="col">
+                <div class="col-6 d-flex w-100">
                     <div id="carouselExampleControls" class="carousel slide p-2" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active ">
@@ -613,7 +615,7 @@
             </div>
 
             <!-- MODAL DESSERT MOBILE -->
-            <div class="modalmobile d-flex justify-content-center">
+            <div class="modalmobile d-flex justify-content-center " id="modaldessert">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn text-white p-2 m-3 btn-dessert" data-toggle="modal"
                     data-target="#modaldessertsmobile">
@@ -627,7 +629,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <div class="modal-title" id="modaldessertsmobileLabel">
-                                    <h3 class="bg-danger text-white p-2">PIMP TON BURGER</h3>
+                                    <h3 class="bg-danger text-white p-2">DESSERTS</h3>
                                 </div>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -668,9 +670,9 @@
 
                     <div class="row col-12">
                         <div class="menu-box-column-dessert w-100">
-                            <h3 class="bg-danger text-white p-2 mr-n5 ml-n5">DESSERTS</h3>
+                            <h3 class="bg-danger text-white p-2" id="desserts">DESSERTS</h3>
                         </div>
-                        <div class="menu-box-column-dessert" style="margin-left: -40px;">
+                        <div class="menu-box-column-dessert">
                             <div>
                                 <span>Sundae caramel au beurre salé : 5.50€</span><br>
                             </div>
@@ -703,7 +705,7 @@
             <div class="row pt-0 pb-5 title d-flex justify-content-center">
 
                 <div class="col-12 bg-dark text-white text-center align-middle">
-                    <h2 class="mb-0 p-2">Contact - Réservation</h2>
+                    <h2 class="mb-0 p-2" id="contact">Contact - Réservation</h2>
                 </div>
 
                 <div class="col-md-6 p-0">
@@ -735,6 +737,7 @@
             </div>
 
         </section>
+    </div>
 
     </main>
 
@@ -762,6 +765,7 @@
             </div>
 
             <div class="col-12 copyright text-center text-white">
+                <a href="#"><i class="fas fa-angle-double-up text-light h4 pt-2"></i></a>
                 <p class="mb-0">© Tous droits réservés - Fifty's American Diner - 2020</p>
             </div>
 
