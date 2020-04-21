@@ -7,6 +7,18 @@ body, html {
   width: 100%;
   scroll-behavior: smooth;
 }
+.title {
+  margin: 0 auto;
+  width: 80%;
+  padding: 100px 0px 100px 0px;
+  background-color: #ffffff;
+  text-align:left;
+}
+.title1 {
+  background-color: #1f2229;
+  height: auto;
+  margin:10px;
+}
 
 /* ========================== en tete nav barre + titre avec photo  */
 
@@ -116,12 +128,6 @@ header{
 
 /* ========================== zone des plats et menu */
 
-section#pin-dishes {
-  width:80%;
-  height:auto ;
-  margin: 0 auto;
-  padding: 100px 0px 0px 0px;
-}
 div.container-dishes {
   width: 100%;
   height: auto;
@@ -189,7 +195,34 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 }
 
 /* ========================== zone menu du resto  */
-
+.btn-burger {
+  background: url(../img/gallery/gallery2.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+  border-radius: 0;
+}
+.btn-pimp {
+  background: url(../img/gallery/gallery4.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+  border-radius: 0;
+}
+.btn-salad {
+  background: url(../img/gallery/gallery7.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+  border-radius: 0;
+}
+.btn-dessert {
+  background: url(../img/gallery/gallery8.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+  border-radius: 0;
+}
 #menu-box{
   text-align: left;
   margin: 0 auto;
@@ -197,16 +230,6 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   padding: 100px 0px 70px 0px;
 }
 #title-menu{
-  width: calc(100% - 20px);
-  margin: 10px;
-}
-.menu-box-column{
-  color: #1f2229;
-  width: calc(50% - 30px);
-  margin: 10px;
-}
-.menu-box-column-dessert{
-  color: #1f2229;
   width: calc(100% - 20px);
   margin: 10px;
 }
@@ -356,18 +379,6 @@ img {vertical-align: middle;}
   background-size: cover;
 }
 
-.contact {
-  margin: 0 auto;
-  width: 80%;
-  padding: 100px 0px 100px 0px;
-  background-color: #ffffff;
-  text-align:left;
-}
-.contact1 {
-  background-color: #1f2229;
-  height: auto;
-  margin:10px;
-}
 #contact-img{
   background-image: url(../img/contact-left.jpg);
   background-size: cover;
